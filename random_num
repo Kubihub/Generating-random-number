@@ -1,0 +1,8 @@
+
+
+import random
+radnum_list = []
+for i in range(0,5):
+    rd_number = random.randint(1, 30)
+    radnum_list.append(rd_number)
+    print(radnum_list)
